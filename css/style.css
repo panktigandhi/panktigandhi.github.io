@@ -186,6 +186,7 @@ color:#888b90;
 font-size:18px;
 font-family: 'Lato', sans-serif;
 line-height:1.8em;
+text-align-last: center
 }
 
 /*.about ul
@@ -447,6 +448,8 @@ padding: 20px 18px;
   line-height: 1.8em;
   margin: 0;
   font-size: 18px;
+  text-align: justify;
+  text-align-last: center;
   color: #888b90;
   font-weight: 300;
 }
