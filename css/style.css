@@ -124,7 +124,7 @@ a.boxclose{
 }
 .banner-info{
 width:65%;
-margin: 141px auto 0 auto;
+margin: 101px auto 0 auto;
 }
 .banner-center h1{
 font-size:34px;
@@ -443,12 +443,13 @@ padding: 20px 18px;
   color: #c1c1c1;
   font-weight: 500;
 }
-.work-grid-info p{
+.work-grid-info ul li{
   font-family: 'Lato', sans-serif;
   line-height: 1.8em;
-  margin: 0;
+  margin-left: 15px;
+  padding-bottom: 20px;
   font-size: 18px;
-  text-align: justify;
+  text-align: justify-all;
   text-align-last: center;
   color: #888b90;
   font-weight: 300;
