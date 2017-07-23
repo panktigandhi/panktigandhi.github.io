@@ -2532,7 +2532,7 @@ border:none;
 	  margin: 10px 0 28px 0;
 	}
 	.banner {
-	  min-height: 400px;
+	  min-height: 500px;
 	}
 	.about h3 {
 	  letter-spacing: 11px;
@@ -2843,7 +2843,7 @@ border:none;
   margin: 38px auto 0 auto;
 }
 .banner {
-  min-height: 231px;
+  min-height: 400px;
 }
 .about-back {
   min-height: 19px;
