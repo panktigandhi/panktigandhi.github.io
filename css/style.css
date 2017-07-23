@@ -422,10 +422,6 @@ left: 40%;
 }
 .work-grids {
   margin-top: 50px;
-/*  left: 50%*/
- /* margin-right:auto;
-margin-left:auto;*/
-  
 }
 .work-grid h3{
 margin:0;
@@ -466,6 +462,7 @@ padding: 20px 18px;
 }
 .work-grid{
 border:1px solid #e2e2e2;
+margin-left: 118px
 border-radius: 6px;
 border-bottom: 2px solid #c3c3c3;
 }
