@@ -21,6 +21,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script src="webgazer.js" type="text/javascript">
+
+webgazer.setGazeListener(function(data, elapsedTime) {
+    if (data == null) {
+        return;
+    }
+    var xprediction = data.x; //these x coordinates are relative to the viewport 
+    var yprediction = data.y; //these y coordinates are relative to the viewport
+    console.log(elapsedTime); //elapsed time is based on time since begin was called
+}).begin();
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <!-- js -->
